@@ -1,9 +1,9 @@
 stages:
   - build
-#
+
 build:
   stage: build
-  image: openjdk:12-alphine
+  image: openjdk:12-alpine
   script:
     - ./gradlew build
   artifacts:
